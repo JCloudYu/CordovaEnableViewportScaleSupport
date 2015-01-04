@@ -29,13 +29,10 @@ public class EnableViewportScaleFix extends CordovaPlugin {
     /* Set the referenced webview content  */
     @Override
     public void initialize(final CordovaInterface cordova, CordovaWebView webView) {
-        Log.v(TAG, "StatusBar: initialization");
         super.initialize(cordova, webView);
-        CordovaPreferences preferences = this.preferences();
 
-
-        webview.getSettings().setUseWideViewPort( preferences.getBoolean("EnableViewportScale", false) );
-        webview.getSettings().setLoadWithOverviewMode( preferences.getBoolean("LoadWithOverviewMode", false) );
+        webView.getSettings().setUseWideViewPort( this.preferences.getBoolean("EnableViewportScale", false) );
+        webView.getSettings().setLoadWithOverviewMode( this.preferences.getBoolean("LoadWithOverviewMode", false) );
     }
 
     /* Do nothing... */
