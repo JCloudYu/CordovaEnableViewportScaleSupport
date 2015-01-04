@@ -20,9 +20,9 @@
     xmlns:rim="http://www.blackberry.com/ns/widgets"
     xmlns:android="http://schemas.android.com/apk/res/android"
     id="org.purimize.cordova.viewportfix"
-    version="0.1.10-dev">
-    <name>StatusBar</name>
-    <description>Cordova EnableViewportScale Fix Plugin</description>
+    version="0.1.0">
+    <name>EnableViewportScaleSupport</name>
+    <description>Cordova EnableViewportScale Support</description>
     <license>Apache 2.0</license>
     <keywords>cordova,viewport,enableviewportscale</keywords>
 
