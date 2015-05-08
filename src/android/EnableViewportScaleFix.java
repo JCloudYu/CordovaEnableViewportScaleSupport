@@ -23,6 +23,8 @@
 */
 package org.purimize.cordova.viewportfix;
 
+import android.webkit.WebView;
+
 import org.apache.cordova.CallbackContext;
 import org.apache.cordova.CordovaArgs;
 import org.apache.cordova.CordovaInterface;
