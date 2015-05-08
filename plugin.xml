@@ -39,7 +39,7 @@
 
 
     <engines>
-        <engine name="cordova" version=">=5.0.0" />
+        <engine name="cordova" version=">=3.8.0" />
     </engines>
 
     <platform name="android">
