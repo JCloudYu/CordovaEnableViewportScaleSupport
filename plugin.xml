@@ -27,7 +27,7 @@
     xmlns:rim="http://www.blackberry.com/ns/widgets"
     xmlns:android="http://schemas.android.com/apk/res/android"
     id="org.purimize.cordova.viewportfix"
-    version="0.1.0">
+    version="0.1.1">
     <name>EnableViewportScaleSupport</name>
     <description>Cordova EnableViewportScale Support</description>
     <license>MIT</license>
@@ -39,7 +39,7 @@
 
 
     <engines>
-        <engine name="cordova" version=">=3.0.0" />
+        <engine name="cordova" version=">=5.0.0" />
     </engines>
 
     <platform name="android">
