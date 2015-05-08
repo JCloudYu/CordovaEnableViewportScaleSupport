@@ -35,8 +35,8 @@ public class EnableViewportScaleFix extends CordovaPlugin {
     public void initialize(final CordovaInterface cordova, CordovaWebView webView) {
         super.initialize(cordova, webView);
         WebView view = (WebView)webView.getView();
-        webView.getSettings().setUseWideViewPort( this.preferences.getBoolean("EnableViewportScale", false) );
-        webView.getSettings().setLoadWithOverviewMode( this.preferences.getBoolean("LoadWithOverviewMode", false) );
+        view.getSettings().setUseWideViewPort( this.preferences.getBoolean("EnableViewportScale", false) );
+        view.getSettings().setLoadWithOverviewMode( this.preferences.getBoolean("LoadWithOverviewMode", false) );
     }
 
     /* Do nothing... */
